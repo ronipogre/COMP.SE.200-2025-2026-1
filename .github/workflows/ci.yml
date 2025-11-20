@@ -22,6 +22,7 @@ jobs:
           npm test
 
       - name: Send coverage to Coveralls
+        if: always()
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
