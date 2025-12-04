@@ -25,8 +25,8 @@ In the project, 10 functions from a utility function library used in an e-commer
 
 Clone the repository and navigate to it:
 ```bash
-git clone https://github.com/ronipogre/COMP.SE.200-2024-2025-1.git
-cd COMP.SE.200-2024-2025-1
+git clone https://github.com/ronipogre/COMP.SE.200-2025-2026-1.git
+cd COMP.SE.200-2025-2026-1
 ```
 Install the project dependencies:
 ```bash
