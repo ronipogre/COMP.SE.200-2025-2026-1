@@ -1,23 +1,23 @@
 name: Bug report
 description: Report a problem, error, or unexpected behaviour.
 body:
-  - type: textarea
+  - type: input
     attributes:
       label: Bug ID
       description: An incrementing integer.
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Title
       description: Short title for the bug.
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Reporter
       description: The name of the reporter.
-  - type: textarea
+  - type: input
     attributes:
       label: Date
       description: The date the bug was discovered.
@@ -35,7 +35,7 @@ body:
       description: The type of device and browser the bug was discovered using.
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: Module
       description: The module of the application that the bug concerns.
@@ -123,4 +123,5 @@ body:
         - Rejected / Not a bug
     validations:
       required: true
+
 
