@@ -115,7 +115,7 @@ body:
       label: Defect life cycle
       description: Current status of the bug in its life cycle.
       options:
-        - New
+        - Open
         - Assigned
         - Fixed
         - Closed
@@ -123,3 +123,4 @@ body:
         - Rejected / Not a bug
     validations:
       required: true
+
