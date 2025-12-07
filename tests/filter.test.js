@@ -22,7 +22,7 @@ describe ('filter', () => {
     }); 
 
     test('should throw TypeError when predicate is undefined', () => {
-        expect(filter([1,2],undefined)).toThrow(TypeError)
+        expect(() => filter([1,2],undefined)).toThrow(TypeError)
     }); 
     
 });
