@@ -52,6 +52,6 @@ describe('toNumber', () => {
     });
 
     test('should return NaN when the input is bad hex', () => {
-        expect(toNumber('-0x1f')).toBeNan();
+        expect(toNumber('-0x1f')).toBeNaN();
     });
 })
