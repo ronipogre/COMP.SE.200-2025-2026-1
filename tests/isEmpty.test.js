@@ -100,7 +100,7 @@ describe('isEmpty', () => {
 
     // isBuffer
     test('should return false when input is non-empty buffer', () => {
-        expect(isEmpty(Buffer.from(0))).toBe(false);
+        expect(isEmpty(Buffer.from('abc'))).toBe(false);
     });
 
     test('should return true when input is empty buffer', () => {
